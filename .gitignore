@@ -10,6 +10,7 @@ lerna-debug.log*
 node_modules
 dist
 src/DB/firebase.jsx
+src/img/
 dist-ssr
 *.local
 

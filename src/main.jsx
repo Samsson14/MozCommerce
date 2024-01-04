@@ -1,0 +1,19 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import 'bootstrap/dist/js/bootstrap.bundle.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { AuthContextProvider } from './context/Authcontext.jsx';
+import { ProjectContextProvider } from './context/projectContext.jsx';
+import './index.css'
+
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <AuthContextProvider>
+      <ProjectContextProvider>
+        <App />
+      </ProjectContextProvider>
+    </AuthContextProvider>
+  </React.StrictMode>,
+)

@@ -1,0 +1,26 @@
+div.error {
+    padding: 10px;
+    background: #ffefef;
+    border: 1px solid var(--error);
+    color: var(--error);
+    border-radius: 4px;
+    margin: 20px 0;
+  }
+
+  .person-card {
+    width: 18rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .person-image {
+    border-radius: 2px;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: block;
+  }
+  
